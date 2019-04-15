@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="jquery.js"></script>
+    <script src="cart.js"></script>
+    <title>Cart</title>
+</head>
+<header>
+    <h1>Cart</h1>
+    <h4 id="welc">Welcome </h4>
+    <button id="logout" class="btn btn-danger float-right" hidden>Logout</button>
+</header>
+
+<body>
+    <div id='cartDiv'>
+        <table class="table table-hover">
+            <thead>
+                <th>Product</th>
+                <th>Vendor</th>
+                <th>Quantity</th>
+                <th>Cost</th>
+                <th>Actions</th>
+            </thead>
+            <tbody id="cartTable"></tbody>
+            <tfoot id='tCost'></tfoot>
+        </table>
+    </div>
+</body>
+
+</html>

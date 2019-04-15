@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="jquery.js"></script>
+    <script src="product.js"></script>
+    <title>Product</title>
+</head>
+<body>
+    <h1>Product List</h1>
+    <input type="text" id="productName"  placeholder="Product Name">
+    <span id="selectList" name="vendor"></span>
+    <input type="number" id="productCost" placeholder="Cost">
+    <button type="button" id="addButton">Add Product</button>
+    <br>
+    <!-- <ol id="productList">
+
+    </ol> -->
+    <table class="table table-hover">
+        <thead>
+            <th>SerialNo.</th>
+            <th>Name</th>
+            <th>VendorName</th>
+            <th>Cost</th>
+            <th>Action</th>
+        </thead>
+        <tbody id="productTablebody">
+
+        </tbody>
+    </table>
+</body>
+</html>
